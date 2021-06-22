@@ -5,7 +5,7 @@ date = 2021-06-22T11:24:13Z
 img = "https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/2021FranceManualAdds/Sunday/FRAF1_Winners_Losers.jpg.transform/9col/image.jpg"
 source = "https://www.formula1.com/en/latest/article.6-winners-and-5-losers-from-the-french-gp-who-brought-their-a-game-to-the.2S3alUb6mioswlpxO2xDY0.html"
 summary = "There was elation in the Red Bull garage as Max Verstappen executed an aggressive strategy to snatch victory from Lewis Hamilton on the penultimate lap, leaving rivals Mercedes with plenty to do as they left Paul Ricard, a venue that had been considered a Silver Arrows fortress. It was an enthralling battle up front, but there was plenty of excitement further down the field. We’ve picked out six winners and five losers from Sunday’s race"
-tags = []
+tags = ["france"]
 title = "6 Winners and 5 Losers from the French GP – Who brought their A-game to Paul Ricard?"
 
 +++
