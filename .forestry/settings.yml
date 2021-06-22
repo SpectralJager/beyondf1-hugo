@@ -8,14 +8,14 @@ sections:
   path: content/posts/news
   label: news
   create: all
-  match: content/posts/news/*
+  match: "*"
   templates:
   - article
 - type: directory
   path: content/posts/analytics
   label: analytics
   create: all
-  match: content/posts/analytics/*
+  match: "*"
   templates:
   - article
 - type: directory
