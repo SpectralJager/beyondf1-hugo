@@ -8,9 +8,19 @@ fields:
 - type: datetime
   name: date
   label: date
+  default: now
 - type: list
   name: categories
   label: categories
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - news
+    - analytics
+    - interviews
+    - results
 - type: list
   name: tags
   label: tags
