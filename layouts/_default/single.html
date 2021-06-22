@@ -29,10 +29,7 @@
 					{{ .Content | safeHTML }}
 				</div>
 				<p class="fs-5 text-muted fw-bold mt-5">
-					Author: {{ .Params.Author }}
-				</p>
-				<p class="fs-5 text-muted fw-bold mt-5">
-					Source: {{ .Params.source }}
+					<a href="{{ .Params.source }}">Source: {{ .Params.Author }}</a>
 				</p>
 				<div class="d-flex">
 					<a href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ (index .Site.Params.links 0).username }}" target="_blank" class="btn btn-primary mx-2">
