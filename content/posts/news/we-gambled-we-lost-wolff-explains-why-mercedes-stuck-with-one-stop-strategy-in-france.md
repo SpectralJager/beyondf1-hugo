@@ -5,7 +5,7 @@ date = 2021-06-22T11:27:07Z
 img = "https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/2021FranceManualAdds/Sunday/M270984%20(1).jpg.transform/6col/image.jpg"
 source = "https://www.formula1.com/en/latest/article.we-gambled-we-lost-wolff-explains-why-mercedes-stuck-with-one-stop-strategy.1yR3aubl3Dm4c2nM5YxTJn.html"
 summary = "Mercedes’ hopes of winning the French Grand Prix were undone by Red Bull adopting a surprise two-stop strategy – but why didn’t the Silver Arrows try the same thing at Paul Ricard? Team Principal Toto Wolff explained all after the scintillating race."
-tags = ["toto wolff", "france", "mercedes"]
+tags = ["wolff", "france", "mercedes"]
 title = "‘We gambled, we lost’ – Wolff explains why Mercedes stuck with one-stop strategy in France"
 
 +++
