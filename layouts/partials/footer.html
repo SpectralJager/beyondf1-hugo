@@ -1,0 +1,8 @@
+<footer class="footer bg-dark p-3 text-white text-center">
+	<div class="btn-group fs-6 mb-2">
+		{{ range .Site.Params.links }}
+			<a href="{{ .link }}" class="btn btn-danger">{{ .icon | safeHTML }}</a>
+		{{ end }}
+	</div>
+	<p class="">&copy;{{ dateFormat "2006" now }} {{ .Site.Title }} by {{ .Site.Params.author }}</p>
+</footer>

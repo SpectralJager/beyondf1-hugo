@@ -1,0 +1,45 @@
+.card {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 0.9;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.card:hover {
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    opacity: 1;
+  }
+}
+
+.bg-img {
+  background-size: cover;
+  background-position: center 15%;
+  height: 50vh;
+}
+
+.article-body .article-text img {
+  display: block;
+  max-width: 100%;
+  margin: 5vh 0;
+}
+
+.article-body .article-text h1, .article-body .article-text h2, .article-body .article-text h3, .article-body .article-text h4, .article-body .article-text h5, .article-body .article-text h6 {
+  margin: 3vh 0;
+}
+
+.article-body .article-text pre {
+  padding: 4vh;
+  font-family: monospace;
+  color: #32b908;
+  background-color: black;
+  font-size: 105%;
+  border-radius: 1em;
+}
+/*# sourceMappingURL=main.css.map */

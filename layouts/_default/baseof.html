@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta property="og:site_name" content="{{ $.Site.Title }}" />
+	<meta property="og:title" content="{{ $.Site.Title }}" />
+	<meta name="twitter:site" content="{{ $.Site.BaseURL }}" />
+	<meta name="twitter:creator" content="@{{ (index .Site.Params.links 0).username }}" />
+	<meta name="robots" content="index, follow" />
+	{{ if .IsPage }}
+		<title>{{ $.Site.Title }} | {{.Title }} </title>
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="{{ .Title }}" />
+		<meta property="og:description" content="{{ .Summary }}" />
+		<meta property="og:url" content="{{ .Permalink }}" />
+		<meta property="og:image" content="{{ .Params.img }}" />
+		<meta name="description" content="{{ .Summary }}" />
+		<meta property="twitter:title" content="{{ .Title }}" />
+		<meta property="twitter:description" content="{{ .Summary }}" />
+		<meta property="article:author" content="@{{ (index .Site.Params.links 0).username }}" />
+		<meta property="article:published_time" content="{{ .PublishDate }}" />
+	{{ else }}
+		<title>{{ $.Site.Title }}: {{ $.Site.Params.description }}</title>
+		<meta name="twitter:card" content="summary" />
+		<meta property="og:title" content="{{ $.Site.Title }}: {{ $.Site.Params.description }}" />
+		<meta property="og:description" content="{{ $.Site.Params.description }}" />
+		<meta name="description" content="{{ $.Site.Params.description }}" />
+	{{ end }}
+	<link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+	<link rel="stylesheet" href="/css/main.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalyticsID }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', '{{ .Site.Params.GoogleAnalyticsID }}');
+	</script>
+</head>
+<body class="bg-light">
+	{{ partial "header.html" . }}
+	{{ block "main" .}}
+	{{ end }}
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
