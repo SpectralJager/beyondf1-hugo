@@ -5,7 +5,7 @@ date = 2021-06-22T11:28:41Z
 img = "https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/2021FranceManualAdds/Sunday/GettyImages-1306474836.jpg.transform/6col/image.jpg"
 source = "https://www.formula1.com/en/latest/article.binotto-says-ferraris-paul-ricard-struggles-stemmed-from-issues-two-years.40f545lT6Yr03vKouJ0F92.html"
 summary = "Ferrari Team Principal Mattia Binotto admitted after a ‘very tiring and difficult’ French Grand Prix that the team’s disastrous result – with Carlos Sainz in P11 and Charles Leclerc in P16 – hadn’t been entirely unexpected, with the conditions at Paul Ricard having exposed a weakness that Ferrari have been aware of for several years, according to Binotto."
-tags = ["mattia binotto", "france", "ferrari"]
+tags = ["binotto", "france", "ferrari"]
 title = "Binotto says Ferrari’s Paul Ricard struggles stemmed from issues ‘two years ago that we should have addressed’"
 
 +++

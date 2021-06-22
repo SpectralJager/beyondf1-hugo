@@ -36,3 +36,5 @@ fields:
 - type: text
   name: img
   label: img
+pages:
+- content/posts/analytics/tech-tuesday-ferrari-were-always-likely-to-struggle-at-paul-ricard-and-here-s-why.md
