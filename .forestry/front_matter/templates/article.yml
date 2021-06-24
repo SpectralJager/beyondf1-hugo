@@ -36,3 +36,5 @@ fields:
 - type: text
   name: img
   label: img
+pages:
+- content/silverstone-given-green-light-for-full-capacity-crowd-at-this-year-s-british-grand-prix.md
