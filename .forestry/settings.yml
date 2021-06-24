@@ -5,20 +5,6 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/posts/news
-  label: news
-  create: all
-  match: "*"
-  templates:
-  - article
-- type: directory
-  path: content/posts/analytics
-  label: analytics
-  create: all
-  match: "*"
-  templates:
-  - article
-- type: directory
   path: content
   label: Pages
   create: all
