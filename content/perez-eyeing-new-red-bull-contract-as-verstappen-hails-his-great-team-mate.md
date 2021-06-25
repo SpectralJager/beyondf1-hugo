@@ -6,7 +6,7 @@ img = "https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/2
 source = "https://www.formula1.com/en/latest/article.perez-eyeing-new-red-bull-contract-as-verstappen-hails-his-great-team-mate.TjEreurQnMlVRQi41IbGx.html"
 summary = "Sergio Perez said in Austria that he hopes to open talks with Red Bull over a contract beyond 2021 soon, as team mate Max Verstappen praised the Mexican for being easy to work with, and for helping the team maximise their results this year."
 tags = ["styria", "redbull"]
-title = "Perez eyeing new Red Bull contract as Verstappen hails his 'great team mate'"
+title = "Perez eyeing new RB contract. Verstappen hails his team mate"
 
 +++
 Perez is on a one-year deal with Red Bull having joined from Racing Point over the winter – while team mate Verstappen has signed with the team [until the end of 2023](https://www.formula1.com/en/latest/article.analysis-why-verstappen-made-an-early-commitment-to-red-bull.3nyz0Y9bnUt9CIo90pTapU.html) – but given his run of solid results including a win in Azerbaijan and P3 ahead of Valtteri Bottas in France, is a contract extension looming?
@@ -18,7 +18,7 @@ He replied on Thursday ahead of the Styrian Grand Prix:
 > “But I see it as a natural thing; once you are comfortable with the team working with them and the team working with you it is something that should happen naturally, happen very smoothly, and we should just take it out of the season and just focus on the right stuff.”
 
 ![1324570277](https://www.formula1.com/content/dam/fom-website/sutton/2021/France/Sunday/1324570277.jpg.transform/9col/image.jpg)
-*img caption*
+*Verstappen and Perez after the France GP*
 
 Perez was alluding to his seven-season stint with Force India and Racing Point, which ended with a shock [announcement in September 2020](https://www.formula1.com/en/latest/article.sergio-perez-reveals-he-is-leaving-racing-point-at-the-end-of-2020-in-shock.7zanCyJajiMZvL3vrit5FU.html) that he would leave the team at the end of the season, after Sebastian Vettel was hired to replace him.
 
