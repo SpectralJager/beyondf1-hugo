@@ -1,4 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;700;800&family=Oswald:wght@300;400;500;700&display=swap");
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+    color: #E63946;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    color: greenyellow;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    color: #E63946;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    color: #E63946;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    color: greenyellow;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    color: #E63946;
+  }
+}
+
 a {
   text-decoration: none;
   color: #E63946;
@@ -25,6 +92,16 @@ a {
 
 .font-red {
   color: #E63946;
+  -webkit-animation-name: blink;
+          animation-name: blink;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
 }
 
 .disabled-link {
@@ -257,6 +334,19 @@ header .bottom-content .links svg:hover {
   width: 100%;
   height: 760px;
   border: 1px solid #03071E;
+  opacity: 0;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
   -webkit-transition: all .3s linear;
   transition: all .3s linear;
 }
@@ -310,13 +400,13 @@ header .bottom-content .links svg:hover {
 }
 
 .article:hover .img, .article:focus-within .img {
-  height: 45%;
+  height: 48%;
 }
 
 .article:hover .content, .article:focus-within .content {
-  padding-top: 10%;
+  padding-top: 6%;
   color: #F1FAEE;
-  height: 55%;
+  height: 52%;
 }
 
 .paginator {
@@ -501,6 +591,7 @@ header .bottom-content .links svg:hover {
 
 .article-read .read .text blockquote {
   padding: .5rem 1rem;
+  padding-right: .5rem;
   font-style: italic;
   border-left: 4px solid #457B9D;
   background: rgba(69, 123, 157, 0.05);
