@@ -384,7 +384,43 @@ header .bottom-content .links svg:hover {
   gap: 1rem;
   width: 90%;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 1.5rem 0;
+}
+
+.article-read .read .category {
+  font-size: 1.5rem;
+  line-height: 1.95rem;
+  font-family: "Oswald";
+  font-weight: 700;
+  color: #D00000;
+}
+
+.article-read .read .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .7rem;
+  color: #1D3557;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.article-read .read .tags__title {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-family: "Oswald";
+  font-weight: 700;
+}
+
+.article-read .read .tags .tag {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-family: "Lato";
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+  border-bottom: 2px solid #E63946;
 }
 
 .article-read .read .title {
@@ -420,8 +456,42 @@ header .bottom-content .links svg:hover {
   font-weight: 400;
 }
 
-.article-read .read img {
+.article-read .read .text img {
+  display: block;
   max-width: 100%;
+  border: 4px solid #D00000;
+  border-right: none;
+  border-bottom: none;
+  border-top-left-radius: .7rem;
+  padding: .7rem 0 0 .7rem;
+}
+
+.article-read .read .text img + em {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #A8DADC;
+  margin-bottom: 2rem;
+  margin-top: .5rem;
+  padding-left: 1rem;
+}
+
+.article-read .read .text p {
+  margin-bottom: 1rem;
+}
+
+.article-read .read .text blockquote {
+  padding: .5rem 1rem;
+  font-style: italic;
+  border-left: 4px solid #457B9D;
+  background: rgba(69, 123, 157, 0.05);
+  margin-bottom: 1rem;
+}
+
+.article-read .read .text blockquote p {
+  margin: 0;
 }
 
 .article-read .read .source {
