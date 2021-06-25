@@ -6,7 +6,7 @@ img = "https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/2
 source = "https://www.formula1.com/en/latest/article.we-gambled-we-lost-wolff-explains-why-mercedes-stuck-with-one-stop-strategy.1yR3aubl3Dm4c2nM5YxTJn.html"
 summary = "Mercedes’ hopes of winning the French Grand Prix were undone by Red Bull adopting a surprise two-stop strategy – but why didn’t the Silver Arrows try the same thing at Paul Ricard? Team Principal Toto Wolff explained all after the scintillating race."
 tags = ["toto wolff", "france", "mercedes"]
-title = "‘We gambled, we lost’ – Wolff explains why Mercedes stuck with one-stop strategy in France"
+title = "Wolff explains why Mercedes stuck with one-stop strategy in France"
 
 +++
 While Max Verstappen stopped twice, Sergio Perez was the factor that stopped Mercedes going for a similar strategy to Red Bull, Wolff said on Sunday. Perez ran a one-stop strategy, pitting seven laps later than Valtteri Bottas, eventually passing the Finn, and was in eyeshot of Lewis Hamilton by the end of the race. The Mexican’s presence meant that if Mercedes had pitted either Hamilton or Bottas, they would likely have relinquished a position to Perez.
