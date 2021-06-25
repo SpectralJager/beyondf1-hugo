@@ -25,3 +25,7 @@ a{
     text-decoration: none;
     color: grey;
 }
+.category{
+    @include font-title($fs-med);
+    color: $rosso-corsa;
+}
