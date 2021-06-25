@@ -6,10 +6,7 @@
         width: 90%;
         margin: 0 auto;
         padding: 1.5rem 0;
-        .category{
-            @include font-title($fs-med);
-            color: $rosso-corsa;
-        }
+        
         .tags{
             display: flex;
             gap: .7rem;
@@ -41,6 +38,11 @@
         }
         .text{
             @include font-content($fs-sm);
+            h2,h3,h4,h5,h6{
+                @include font-title($fs-med);
+                margin-top: 1.5*$fs-med;
+                margin-bottom: $fs-med;
+            }
             img{
                 display: block;
                 max-width: 100%;

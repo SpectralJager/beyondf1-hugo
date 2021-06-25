@@ -6,10 +6,11 @@
 		<div class="article">
 			<div class="img" style="--bg-img: url({{ $page.Params.img }})"></div>
 			<div class="content">
-				<h2 class="title">{{ $page.Title }}</h2>
+				<h4 class="category">{{index $page.Params.categories 0}}</h3>
+				<h2 class="title">{{ truncate 64 $page.Title }}</h2>
 				<p class="meta">{{ $page.PublishDate.Format "2006, January 2 15:04 MST" }}</p>
 				<div class="text">
-					{{ truncate 130 $page.Params.summary }}
+					{{ truncate 128 $page.Params.summary }}
 				</div>
 				<a href="{{ $page.Permalink }}" class="btn">Read more</a>
 			</div>
