@@ -60,8 +60,14 @@
                 margin-top: .5rem;
                 padding-left: 1rem;
             }
-            p{
+            p, ul{
                 margin-bottom: $fs-sm;
+            }
+            ul {
+                padding-left: $fs-sm*1.5;
+                li{
+                    margin-bottom: .5rem;
+                }
             }
             blockquote{
                 padding: .5rem 1rem;
