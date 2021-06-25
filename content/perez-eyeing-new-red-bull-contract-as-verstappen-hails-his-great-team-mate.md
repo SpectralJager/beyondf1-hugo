@@ -14,7 +14,7 @@ Perez is on a one-year deal with Red Bull having joined from Racing Point over t
 He replied on Thursday ahead of the Styrian Grand Prix: 
 
 >“There will be some downtime where we can speak about it and hopefully it doesn’t take too long, because I don’t have a good experience when you take that long.”
-
+> 
 > “But I see it as a natural thing; once you are comfortable with the team working with them and the team working with you it is something that should happen naturally, happen very smoothly, and we should just take it out of the season and just focus on the right stuff.”
 
 ![1324570277](https://www.formula1.com/content/dam/fom-website/sutton/2021/France/Sunday/1324570277.jpg.transform/9col/image.jpg)
@@ -25,7 +25,7 @@ Perez was alluding to his seven-season stint with Force India and Racing Point, 
 As for Verstappen, leading the Championship going into the team’s pair of home races, he had words of praise for Perez ahead of Round 8 of the 2021 season and said he wanted that relationship to continue.
 
 > “Of course, I knew Checo before – not as a team mate, so it’s a little bit different – but I think so far it’s been great and to be able to work together now up front to get the best result for the team is what you want,” said the Dutchman.
-
+> 
 > “For sure, I would want that to continue. And yes, he’s a great team mate and we can have a lot of fun as well; we don’t always need to talk about cars and set-up and stuff.”
 
 Red Bull have a 37-point lead over Mercedes in the [Constructors’ Championship](https://www.formula1.com/en/results/constructor-standings.html) too and Verstappen added that Perez’s presence, along with the competitive RB16B, is going to be crucial in ensuring they have a chance to fight for both titles this season.
