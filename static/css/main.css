@@ -487,8 +487,16 @@ header .bottom-content .links svg:hover {
   padding-left: 1rem;
 }
 
-.article-read .read .text p {
+.article-read .read .text p, .article-read .read .text ul {
   margin-bottom: 1rem;
+}
+
+.article-read .read .text ul {
+  padding-left: 1.5rem;
+}
+
+.article-read .read .text ul li {
+  margin-bottom: .5rem;
 }
 
 .article-read .read .text blockquote {
