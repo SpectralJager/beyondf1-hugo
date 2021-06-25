@@ -5,8 +5,8 @@ date = 2021-06-24T11:26:26Z
 img = "https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/Silverstone/GettyImages-1264676978.jpg.transform/9col/image.jpg"
 source = "https://www.formula1.com/en/latest/article.silverstone-given-green-light-for-full-capacity-crowd-at-this-years-british.3lmININsbJyI8yp82G4Bxs.html"
 summary = "Silverstone and Formula 1 have announced there will be a full crowd at this year's British Grand Prix, after the event was included in the UK Government’s Event Research Programme."
-tags = ["british"]
-title = "Silverstone given green light for full capacity crowd at this year’s British Grand Prix"
+tags = ["silverstone"]
+title = "British Grand Prix have allowed a full capacity tribunes "
 
 +++
 A statement released on Thursday said: "We are delighted to confirm that the Formula 1 Pirelli British Grand Prix 2021 has been included in the latest phase of the UK Government’s Event Research Programme (ERP) allowing a full capacity crowd for the event between 16th – 18th July.
