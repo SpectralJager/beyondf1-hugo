@@ -16,6 +16,7 @@ A statement released on Thursday said: "We are delighted to confirm that the For
 "The Silverstone team will be working closely with the ERP experts and particularly the Director of Public Health in Northamptonshire on the specific conditions of entry that will enable the event to operate safely and will be announcing these details to ticket holders in the next ten days."
 
 ![996096950](https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/Silverstone/GettyImages-996096950.jpg.transform/9col/image.jpg)
+*Silverstone*
 
 Stefano Domenicali, President and CEO of Formula 1, said: “It is fantastic news that Silverstone will be a full capacity event and it will be an incredible weekend with hundreds of thousands of fans being there to see our first event Sprint event on the Saturday and the main event on Sunday.
 
