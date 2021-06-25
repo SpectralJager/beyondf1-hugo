@@ -5,6 +5,8 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    max: 64
 - type: datetime
   name: date
   label: date
