@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main >
 	<section class="home">
-		{{ $paginator := (.Paginate .RegularPages) }}
+		{{ $paginator := (.Paginate .Site.RegularPages) }}
 		{{ range $page := $paginator.Pages }}
 		<div class="article">
 			<div class="img" style="--bg-img: url({{ $page.Params.img }})"></div>

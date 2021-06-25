@@ -1,0 +1,115 @@
+.event{
+    @include card();
+    &__item{
+        width: 100%;
+        height: 50%;
+        @include bg-img(var(--bg-img), $celadon-blue);
+        color: $honeydew;
+        padding: 1.5rem 10%;
+        .title{
+            @include font-title($fs-med);
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .content{
+            height: 70%;
+            display: grid;
+            align-items: center;
+            grid-template-columns: auto 100px;
+            gap: 1rem;
+            @include font-content($fs-sm);
+            .meta{
+                text-align: center;
+            }
+        }
+        transition: all .3s linear;
+        &:hover, &:focus-within{
+            background-color: $xiketic;
+        }
+    }
+}
+.article{
+    @include card();
+    border: 1px solid $xiketic;
+    .img{
+        @include bg-img(var(--bg-img), none );
+        width: 100%;
+        height: 50%;
+        transition: height .3s linear;
+    }
+    .content{
+        position: relative;
+        width: 100%;
+        height: 50%;
+        padding: 5% 10%;
+        @include font-content($fs-sm);
+        transition: all .3s linear;
+        .title{
+            @include font-title($fs-med);
+            margin-bottom: 1rem;
+        }
+        .meta{
+            margin-bottom: 1rem;
+        }
+        a{
+            transition: all .3s linear;
+            position: absolute;
+            bottom: 5%;
+        }
+    }
+    transition: all .3s linear;
+    &:hover, &:focus-within{
+        background-color: $prussian-blue;
+        .img{
+            height: 45%;
+        }
+        .content{
+            padding-top: 10%;
+            color: $honeydew;
+            height: 55%;
+        }
+    }
+}
+
+.paginator{
+    margin: 2rem auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    &--group{
+        overflow: hidden;
+        border-radius: 1em;
+        border: 1px solid black;
+        display: flex;
+    }
+    &--pages{
+        padding: .5rem 1rem;
+        font-weight: 700;
+    }
+    &--btn{
+        font-size: 0.85rem;
+        font-weight: 700;
+        
+        padding: .5rem 1.5rem;
+        color: honeydew;
+        background: linear-gradient($imperial-red, $rosso-corsa);
+        transition: all .2s linear;
+        &:hover, &:focus{
+            background: linear-gradient($rosso-corsa, $dark-red);
+        }
+        &__link{
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: .5rem 1.5rem;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            color: honeydew;
+            background: linear-gradient($imperial-red, $rosso-corsa);
+            transition: all .2s linear;
+            &:hover, &:focus{
+                background: linear-gradient($rosso-corsa, $dark-red);
+            }
+        }
+    }
+}

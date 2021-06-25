@@ -6,7 +6,7 @@ enableRobotsTXT: true
 params:
   author: Spectral Jager
   description: Your guide from The Ocean of empty talks to The Island of meaning. 
-  googleAnalyticsID: ""
+  googleAnalyticsID: "G-P3B90SMZ6J"
   links:
     - name: Twitter
       link: https://twitter.com/SpectrumUnkn
