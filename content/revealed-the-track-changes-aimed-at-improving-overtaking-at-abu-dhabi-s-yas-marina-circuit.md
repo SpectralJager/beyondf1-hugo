@@ -5,7 +5,7 @@ date = 2021-06-24T11:28:42Z
 img = "https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/AbuDhabiTrack/YMC-New-Track-A.jpg.transform/9col/image.jpg"
 source = "https://www.formula1.com/en/latest/article.revealed-the-track-changes-aimed-at-improving-overtaking-at-abu-dhabis-yas.rejS8Xxbgoom5yPUInsek.html"
 summary = "This year’s Abu Dhabi Grand Prix will take place on a new and improved layout, after the Yas Marina Circuit announced the track will be reconfigured in time for this year’s race – the season finale."
-tags = ["abu_dhab"]
+tags = ["abu_dhabi"]
 title = "The track changes at Abu Dhabi’s Yas Marina Circuit"
 
 +++
