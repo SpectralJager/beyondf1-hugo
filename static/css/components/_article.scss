@@ -71,6 +71,7 @@
             }
             blockquote{
                 padding: .5rem 1rem;
+                padding-right: .5rem;
                 font-style: italic;
                 border-left: 4px solid $celadon-blue;
                 background: rgba($color: $celadon-blue, $alpha: .05);

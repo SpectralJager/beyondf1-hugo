@@ -31,6 +31,13 @@
 .article{
     @include card();
     border: 1px solid $xiketic;
+    opacity: 0;
+    transform: scale(.8);
+    animation-name: fadein;
+    animation-duration:  1s;
+    animation-iteration-count:  1;
+    animation-direction:  normal;
+    animation-fill-mode:  forwards;
     .img{
         @include bg-img(var(--bg-img), none );
         width: 100%;
@@ -61,14 +68,15 @@
     &:hover, &:focus-within{
         background-color: $prussian-blue;
         .img{
-            height: 45%;
+            height: 48%;
         }
         .content{
-            padding-top: 10%;
+            padding-top: 6%;
             color: $honeydew;
-            height: 55%;
+            height: 52%;
         }
     }
+
 }
 
 .paginator{
