@@ -15,7 +15,7 @@ McLaren were later heard complaining to FIA Race Director Michael Masi over radi
 
 > “When \[Bottas\] pulled away from his designated pit stop position,” ran the stewards’ verdict, “he lost control of the car when he turned into the fast lane. He oversteered, spun and came to a stop across the fast lane near the McLaren pits.
 
- Valtteri Bottas: Pit lane spin was after trying 'something different getting out from the box'
+Valtteri Bottas: Pit lane spin was after trying 'something different getting out from the box'
 
 > “During the hearing \[Bottas\] stated that in the past they have been losing time in the pit departure. So they tried something new, which was to leave in second gear. As a result, the wheel spin was much higher and the result unexpected. Therefore he didn’t manage to control the car properly into the fast lane.
 
